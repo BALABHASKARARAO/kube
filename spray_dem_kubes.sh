@@ -64,7 +64,7 @@ echo "**************************************"
 rm -rf kubespray
 git clone https://github.com/kubernetes-sigs/kubespray.git \
 && cd kubespray
-cp terraformec2.pem kubespray/terraformec2.pem
+cp ../terraformec2.pem kubespray/terraformec2.pem
 
 echo " "
 echo "Installing kubespray requirements"
