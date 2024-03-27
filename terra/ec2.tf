@@ -89,9 +89,15 @@ resource "aws_eip_association" "eip_assoc_w2" {
 output "instance_test_cluster_w1_ip" {
   value = aws_instance.test_cluster_w1.public_ip
 }
+output "instance_test_cluster_w3_ip" {
+  value = aws_instance.test_cluster_w3.public_ip
+}
 output "instance_test_cluster_w2_ip" {
   value = aws_instance.test_cluster_w2.public_ip
 }
 output "instance_test_cluster_m1_ip" {
   value = aws_instance.test_cluster_m1.public_ip
+}
+output "instance_test_cluster_m2_ip" {
+  value = aws_instance.test_cluster_m2.public_ip
 }
