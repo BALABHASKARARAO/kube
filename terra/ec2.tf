@@ -7,7 +7,6 @@ resource "aws_instance" "test_cluster_m1" {
     Name = "test_cluster_m1"
   }
 }
- /*
 resource "aws_instance" "test_cluster_m2" {
   ami                    = "ami-08116b9957a259459"
   instance_type          = "t2.medium"
@@ -26,7 +25,6 @@ resource "aws_instance" "test_cluster_w3" {
     Name = "test_cluster_w3"
   }
 }
-*/
 resource "aws_instance" "test_cluster_w1" {
   ami                    = "ami-08116b9957a259459"
   instance_type          = "t2.medium"
