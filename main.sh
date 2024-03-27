@@ -47,8 +47,8 @@ fi
 
 cd terra
 terraform init \
-&& terraform plan -var-file=secret.tfvars \
-&& terraform apply -var-file=secret.tfvars -auto-approve
+&& terraform plan  \
+&& terraform apply  -auto-approve
 
 
 echo " "
