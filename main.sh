@@ -33,16 +33,6 @@ helpFunction()
 
 ################################################################################################
 
-echo " "
-echo "Install terraform"
-echo "**************************************"
-#if ! rpm -qa | grep -i "terra"
-#then
-#  yum install -y yum-utils
-#  yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
-#  yum install -y terraform
-#fi
-
 
 echo " "
 echo "Generate cluster ec2 instances"
